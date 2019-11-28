@@ -1,0 +1,29 @@
+.header-tel__nam {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  padding-left: 30px;
+}
+@media  (min-width: 768px) {
+  .header-tel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .header-tel__nam {
+    position: relative;
+    font-size: 20px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 16px;
+      height: 16px;
+      top: 5px;
+      left: 0;
+      background-image: url("/img/icon-phone.png");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+

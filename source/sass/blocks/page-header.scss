@@ -1,6 +1,26 @@
 .page-header {
+  max-width: 1170px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 15px;
+  padding: 15px;
+}
+.page-header__logo {
+  display: flex;
+  align-items: center;
+}
+.page-header span {
+  display: none;
+}
+@media  (min-width: 768px) {
+  .page-header span {
+    display: block;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #9a9a9a;
+  }
+}
+@media  (min-width: 1720px) {
+
 }
