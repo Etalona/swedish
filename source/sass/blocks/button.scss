@@ -1,0 +1,30 @@
+.button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  @include contrast-bcolor();
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+@media  (min-width: 768px) {
+  .button {
+    position: relative;
+    font-size: 14px;
+    padding-right: 40px;
+    cursor: pointer;
+    &::after {
+      position: absolute;
+      content: "";
+      top: 23px;
+      right: 65px;
+      width: 31px;
+      height: 9px;
+      background-image: url("/img/arrow.png");
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}

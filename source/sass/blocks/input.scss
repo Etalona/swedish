@@ -1,0 +1,19 @@
+.input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #a4c58c;
+  &::-webkit-input-placeholder {
+    @include contrast-color();}
+  &::-moz-placeholder          {
+    @include contrast-color();}/* Firefox 19+ */
+  &:-moz-placeholder           {
+    @include contrast-color();}/* Firefox 18- */
+  &:-ms-input-placeholder      {
+    @include contrast-color();}
+}
+@media  (min-width: 768px) {
+  .input {
+    font-size: 14px;
+  }
+}

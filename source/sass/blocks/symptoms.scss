@@ -1,0 +1,11 @@
+.symptoms__headline {
+  font-size: 24px;
+}
+.symptoms__list tr td:first-child {
+  color: lighten($color, 10%);
+}
+.symptoms__focal-points {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}

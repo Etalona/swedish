@@ -1,0 +1,11 @@
+$color: #7eb252;
+@mixin contrast-bcolor() {
+  background-color: #7eb252;
+}
+@mixin contrast-color() {
+  color: #a4c58c;
+}
+@mixin border-color() {
+  border-color: #a4c58c;
+}
+

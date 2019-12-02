@@ -5,6 +5,7 @@ body {
   line-height: normal;
   background-color: #ffffff;
   color: #2f2f2f;
+  margin: 0;
 }
 
 .visually-hidden {
@@ -20,6 +21,16 @@ body {
 
 @import "fonts";
 @import "mixin";
+@import "blocks/main-container";
 @import "blocks/page-header";
 @import "blocks/header-logo";
 @import "blocks/header-tel";
+@import "blocks/top-photo";
+@import "blocks/top-information";
+@import "blocks/top-text";
+@import "blocks/top-form";
+@import "blocks/button";
+@import "blocks/input";
+@import "blocks/proof";
+@import "blocks/symptoms";
+@import "blocks/symptoms-grid";

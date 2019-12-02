@@ -1,0 +1,37 @@
+.top-text {
+  color: #ffffff;
+
+}
+.top-text__definition {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.top-text__headline {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+
+}
+.top-text__description {
+  display: none;
+}
+
+@media  (min-width: 768px) {
+  .top-text {
+  }
+  .top-text__headline {
+    font-size: 50px;
+
+  }
+  .top-text__description {
+    line-height: 24px;
+    display: block;
+  }
+  .top-text__definition {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1170px) {
+
+}

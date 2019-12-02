@@ -1,0 +1,53 @@
+.proof {
+  padding: 60px 55px;
+  display: flex;
+  justify-content: center;
+}
+.proof__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.proof__item {
+  padding-left: 25px;
+  width: 220px;
+}
+.proof__item span {
+  font-weight: 600;
+  font-size: 20px;
+  @include contrast-color();
+  border-bottom: 2px solid;
+  @include border-color();
+}
+.proof__item p {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+@media  (min-width: 768px) {
+  .proof {
+    padding-left: 100px;
+  }
+  .proof__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .proof__item {
+    position: relative;
+    width: 220px;
+    &::before {
+      position: absolute;
+      content: "";
+      top: - 20px;
+      left: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border:  3px solid;
+      border-color: (lighten($color, 20%));
+    }
+  }
+}
