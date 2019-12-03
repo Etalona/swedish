@@ -1,11 +1,100 @@
 .symptoms__headline {
   font-size: 24px;
 }
-.symptoms__list tr td:first-child {
+.symptoms__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+.symptoms__list li {
+  display: flex;
+  padding-left: 5%;
+  & p {
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    border-bottom: 1px solid;
+    border-color: lighten($color, 35%);
+  }
+  &:last-child p {
+    border-bottom: none;
+  }
+}
+.symptoms__list span {
+  display: inline-block;
+  width: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
   color: lighten($color, 10%);
+  font-weight: 600;
+  font-size: 12px;
 }
 .symptoms__focal-points {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
+}
+.symptoms__minor-points {
+  font-size: 14px;
+}
+.symptoms__report {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+.symptoms__report p {
+  width: 260px;
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid;
+  border-color: lighten($color, 35%);
+
+}
+.symptoms__report a  {
+  font-weight: 600;
+  color: $color;
+  margin-top: -15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: lighten($color, 45%);
+}
+@media  (min-width: 768px) {
+  .symptoms__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+  .symptoms__focal-points {
+    width: 93%;
+  }
+  .symptoms__minor-points {
+    width: 44%;
+  }
+  .symptoms__minor-points {
+    border-right: 1px solid;
+    border-color: lighten($color, 35%);
+  }
+  .symptoms__minor-points--left {
+    border-right: none;
+    border-bottom: 1px solid;
+    border-color: lighten($color, 35%);
+  }
+  .symptoms__list .symptoms__minor-points:nth-child(odd) p {
+    border-bottom: none;
+  }
+  .symptoms__photo-block {
+
+  }
 }
