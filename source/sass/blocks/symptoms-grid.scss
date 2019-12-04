@@ -23,5 +23,25 @@
   }
 }
 @media  (min-width: 1170px) {
-
+  .symptoms-grid__container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  .symptoms-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .symptoms-grid__headline {
+    text-align: left;
+    padding-left: 0;
+  }
+  .symptoms-grid__list {
+    position: relative;
+    width: 100%;
+  }
+  .symptoms-grid__button {
+    margin-left: 56%;
+    margin-top: 20px;
+  }
 }

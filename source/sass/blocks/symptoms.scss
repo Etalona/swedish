@@ -119,6 +119,7 @@
     background-position: center;
   }
   .symptoms__button {
+
     width:  420px;
   }
   .symptoms__button::after {
@@ -126,5 +127,37 @@
   }
 }
 @media  (min-width: 1170px) {
+  .symptoms {
 
+  }
+  .symptoms__headline {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .symptoms__list {
+    padding-bottom: 20px;
+    padding-left: 0;
+    width: 690px;
+    padding-right: 550px;
+    margin: 0 auto;
+  }
+  .symptoms__list li {
+    padding-left: 0;
+  }
+  .symptoms__photo-block {
+    position: absolute;
+    width: 500px;
+    top: -115px;
+    left: 56%;
+  }
+  .symptoms__button {
+    width: 500px;
+    &::after {
+      right: 120px;
+    }
+  }
+  .symptoms__list .symptoms__minor-points--left {
+    padding-left: 20px;
+    width: 37%;
+  }
 }
