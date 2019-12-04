@@ -76,25 +76,55 @@
     padding-left: 40px;
     padding-right: 60px;
   }
+  .symptoms__list span {
+    font-size: 14px;
+  }
   .symptoms__focal-points {
     width: 93%;
+    font-size: 14px;
   }
   .symptoms__minor-points {
-    width: 44%;
-  }
-  .symptoms__minor-points {
+    width: 54%;
+    font-size: 16px;
     border-right: 1px solid;
     border-color: lighten($color, 35%);
   }
   .symptoms__minor-points--left {
     border-right: none;
     border-bottom: 1px solid;
+    width: 34%;
     border-color: lighten($color, 35%);
   }
   .symptoms__list .symptoms__minor-points:nth-child(odd) p {
     border-bottom: none;
   }
-  .symptoms__photo-block {
-
+  .symptoms__report {
+    align-self: flex-end;
+    width: 380px;
+    margin-bottom: -20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: lighten($color, 45%);
+    font-size: 16px;
+    & p {
+      width: 300px;
+      padding-left: 55px;
+      padding-right: 20px;
+    }
   }
+  .symptoms__photo-block {
+    height: 690px;
+    background-image: url("/img/symptom-low-energy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .symptoms__button {
+    width:  420px;
+  }
+  .symptoms__button::after {
+    right: 85px;
+  }
+}
+@media  (min-width: 1170px) {
+
 }

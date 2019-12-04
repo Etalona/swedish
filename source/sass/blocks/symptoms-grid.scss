@@ -9,3 +9,19 @@
 .symptoms-grid__report {
   background-color: lighten($color, 45%);
 }
+@media  (min-width: 768px) {
+  .symptoms-grid__report {
+    background-color: #a4c58c;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .symptoms-grid__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+@media  (min-width: 1170px) {
+
+}
