@@ -1,0 +1,43 @@
+.pop {
+  font-size: 14px;
+}
+.pop__headline {
+  max-width: 440px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pop__headline-list {
+  font-weight: 600;
+}
+.pop__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pop__list li {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 14px;
+    top: 3px;
+    left: 10px;
+    background-image: url("/img/arrow-small.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.pop__photo-text {
+  background-image: url("/img/woman-small.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pop__card {
+  padding: 40px;
+}
