@@ -1,6 +1,6 @@
 .pop-grid {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 .pop-grid__headline {
@@ -9,5 +9,13 @@
   text-align: center;
 }
 .pop-grid__photo-text {
+  order: 1;
+  height: 650px;
+  width: 50%;
 
+}
+.pop-grid__props-container {
+  order: 2;
+  height: 650px;
+  width: 50%;
 }
