@@ -59,7 +59,6 @@
   padding-right: 20px;
   border: 1px solid;
   border-color: lighten($color, 35%);
-
 }
 .symptoms__report a  {
   font-weight: 600;
@@ -126,17 +125,14 @@
     right: 85px;
   }
 }
-@media  (min-width: 1170px) {
-  .symptoms {
-
-  }
+@media  (min-width: 1280px) {
   .symptoms__headline {
     font-size: 40px;
     margin-bottom: 30px;
   }
   .symptoms__list {
     padding-bottom: 20px;
-    padding-left: 0;
+    padding-left: 55px;
     width: 690px;
     padding-right: 550px;
     margin: 0 auto;
@@ -148,7 +144,7 @@
     position: absolute;
     width: 500px;
     top: -115px;
-    left: 56%;
+    left: 54%;
   }
   .symptoms__button {
     width: 500px;

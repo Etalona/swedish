@@ -33,11 +33,80 @@
   }
 }
 .pop__photo-text {
-  background-image: url("/img/woman-large.jpg");
-  background-position-x: right;
+  background-image: url("/img/woman-small.jpg");
+  background-position: top center;
   background-repeat: no-repeat;
-  //background-size: cover;
+  background-size: 100% auto;
 }
 .pop__card {
-  padding: 40px;
+  align-self: flex-end;
+  background-color: #ffffff;
+  & p {
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+  }
+}
+.pop__invisible-words {
+  display: none;
+}
+@media  (min-width: 768px) {
+  .pop {
+    font-size: 16px;
+  }
+  .pop__headline  {
+    font-size: 30px;
+    max-width: 540px;
+  }
+  .pop__photo-text {
+    background-image: url("/img/woman-middle.jpg");
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 768px 645px;
+  }
+  .pop__invisible-words {
+    display: inline;
+  }
+  .pop__card {
+    margin: 0 auto;
+    width: 560px;
+    padding: 20px;
+    & p {
+      text-align: left;
+      border: 1px solid;
+      border-color: lighten($color, 35%);
+    }
+  }
+  .pop__list li {
+    padding-bottom: 25px;
+  }
+}
+@media  (min-width: 1280px) {
+  .pop__headline,
+  .pop__headline-list {
+    text-align: left;
+    padding: 0;
+  }
+  .pop__headline {
+    font-size: 40px;
+    width: 472px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .pop__card {
+    margin: 0;
+    margin-left: auto;
+    margin-bottom: -72px;
+  }
+  .pop__photo-text {
+    background-image: url("/img/woman-large.jpg");
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 875px 645px;
+  }
+  .pop__list li {
+    padding-bottom: 50px;
+    width: 460px;
+  }
 }
