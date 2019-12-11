@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: normal;
   background-color: #ffffff;
   color: #2f2f2f;
@@ -36,3 +36,5 @@ body {
 @import "blocks/symptoms-grid";
 @import "blocks/pop";
 @import "blocks/pop-grid";
+@import "blocks/history";
+@import "blocks/history-grid";

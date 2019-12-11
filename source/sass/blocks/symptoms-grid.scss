@@ -26,6 +26,9 @@
   }
 }
 @media (min-width: 1280px) {
+  .symptoms {
+    margin-bottom: 200px;
+  }
   .symptoms-grid__container {
     width: 1170px;
     margin: 0 auto;
@@ -44,7 +47,7 @@
     width: 100%;
   }
   .symptoms-grid__button {
-    margin-left: 54%;
+    margin-left: 56%;
     margin-top: 20px;
   }
 }
