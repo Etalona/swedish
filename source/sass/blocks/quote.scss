@@ -1,0 +1,71 @@
+.quote__wrapper {
+  max-width: 530px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  & blockquote {
+    font-weight: 700;
+  }
+  & cite {
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: normal;
+  }
+  & span {
+    display: block;
+    color: #9a9a9a;
+  }
+}
+@media  (min-width: 768px) {
+  .quote {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .quote__wrapper {
+    width: 95%;
+    max-width: 780px;
+    margin-top: 100px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: lighten($color, 15%);
+    font-size: 16px;
+  }
+  & blockquote {
+    max-width: 520px;
+    margin: 0 auto;
+    line-height: 30px;
+  }
+  & cite {
+    min-width: 400px;
+  }
+  & span {
+    font-size: 14px;
+
+  }
+}
+@media  (min-width: 1280px) {
+  .quote::before {
+    position: absolute;
+    content: "";
+    background-image: url("/img/flower-fon.png");
+    width: 500px;
+    height: 626px;
+    top: 0;
+    left: 0;
+  }
+  .quote::after {
+    position: absolute;
+    content: "";
+    background-image: url("/img/flower-fon.png");
+    width: 500px;
+    height: 626px;
+    transform: rotateY(-180deg);
+    top: 0;
+    right: 0;
+  }
+}
