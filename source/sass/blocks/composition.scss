@@ -8,7 +8,114 @@
   max-width: 280px;
   text-align: center;
   font-size: 24px;
-  & h4 {
-
+}
+.composition__list {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  list-style: none;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.composition__item {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.composition__num::after {
+  position: absolute;
+  content: "";
+  width: 95px;
+  height: 85px;
+  top: 5px;
+  left: 60px;
+}
+.composition__num--herbs::after {
+  background-image: url("/img/herb-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.composition__num--instruction::after {
+  background-image: url("/img/instruction-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.composition__num--certificate::after {
+  background-image: url("/img/certificate-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.composition__num {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 130px;
+  line-height: 95px;
+  color: #ffffff;
+}
+@media  (min-width: 768px) {
+  .composition {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  .composition__headline {
+    max-width: 605px;
+    font-size: 30px;
+  }
+  .composition__list {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    padding-left: 15px;
+    background-color: #ffffff;
+  }
+  .composition__item {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 148px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-color: lighten($color, 35%);
+  }
+  .composition__num {
+    color: lighten($color, 45%);
+  }
+  .composition__num::after {
+    top: 45px;
+    left: 75px;
+  }
+}
+@media  (min-width: 1280px) {
+  .composition {
+    margin-top: 160px;
+    background-color: transparent;
+  }
+  .composition__headline {
+    width: 500px;
+    padding-right: 640px;
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-align: left;
+  }
+  .composition__list {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 0;
+    background-color: lighten($color, 45%);
+  }
+  .composition__item {
+    padding: 80px;
+    margin-top: -40px;
+    margin-bottom: 110px;
+    outline: 15px solid white;
+  }
+  .composition__num::after {
+    top: 85px;
+    left: 110px;
   }
 }

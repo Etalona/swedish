@@ -49,13 +49,16 @@
   }
 }
 @media  (min-width: 1280px) {
+  .quote__wrapper {
+    margin-top: 140px;
+  }
   .quote::before {
     position: absolute;
     content: "";
     background-image: url("/img/flower-fon.png");
     width: 500px;
     height: 626px;
-    top: 0;
+    top: -60px;
     left: 0;
   }
   .quote::after {
@@ -65,7 +68,7 @@
     width: 500px;
     height: 626px;
     transform: rotateY(-180deg);
-    top: 0;
+    top: -60px;
     right: 0;
   }
 }
