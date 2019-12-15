@@ -1,0 +1,17 @@
+.consist__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.consist__card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 388px;
+  height: 297px;
+  background-color: #f6f9f3;
+  margin: 10px;
+}
+.consist__text {
+  transform: rotate(-90deg);
+}
