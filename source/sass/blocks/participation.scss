@@ -1,0 +1,34 @@
+.participation__head {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+.participation__description {
+  padding-left: 15px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+.participation__benefit {
+  display: block;
+  margin-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.participation__button {
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  line-height: 22px;
+}
+@media  (min-width: 768px) {
+  .participation__wrapper {
+    margin: 65px;
+    padding: 70px;
+    border: 1px solid;
+    border-color: lighten($color, 15%);
+  }
+}
