@@ -1,0 +1,123 @@
+.warranty {
+  background-color: lighten($color, 45%);
+}
+.warranty__head {
+  text-align: center;
+  font-size: 24px;
+  & h4 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-top: 60px;
+  }
+}
+.warranty__basic-information {
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.warranty__certificate {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.warranty__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ & p {
+   padding-left: 30px;
+   padding-right: 20px;
+ }
+}
+.warranty__but {
+  display: block;
+  font-weight: 700;
+  color: lighten($color, 15%);
+  margin: 0 auto;
+}
+.warranty__button {
+  margin-top: 30px;
+}
+@media  (min-width: 768px) {
+  .warranty__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 77px;
+  }
+  .warranty__head {
+    background-color: #ffffff;
+    padding-bottom: 25px;
+    font-size: 30px;
+    width: 100%;
+  }
+  .warranty__basic-information {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 60%;
+  }
+  .warranty__certificate {
+    margin-right: 30px;
+    width: 35%;
+    margin-bottom: 0;
+  }
+  .warranty__text {
+    position: relative;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-top: 80px;
+    width: 45%;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: lighten($color, 15%);
+    outline: 20px solid #ffffff;
+    font-size: 16px;
+  }
+  .warranty__but {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ffffff;
+  }
+  .warranty__button {
+    margin-top: auto;
+  }
+}
+@media  (min-width: 1280px) {
+  .warranty {
+    background-color: transparent;
+  }
+  .warranty__head {
+    & h4 {
+      width: 50%;
+    }
+  }
+  .warranty__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    background-color: lighten($color, 45%);
+  }
+  .warranty__basic-information {
+    text-align: left;
+  }
+  .warranty__certificate {
+    & img {
+      width: 416px;
+      height: 644px;
+    }
+  }
+  .warranty__text {
+
+  }
+}
