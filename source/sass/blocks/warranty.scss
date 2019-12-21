@@ -94,6 +94,7 @@
 }
 @media  (min-width: 1280px) {
   .warranty {
+    position: relative;
     background-color: transparent;
   }
   .warranty__head {
@@ -102,22 +103,35 @@
     }
   }
   .warranty__wrapper {
+
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 
+    justify-content: center;
     background-color: lighten($color, 45%);
   }
   .warranty__basic-information {
+    display: block;
+    width: 510px;
+    margin-right: 560px;
+    margin-left: -40px;
     text-align: left;
   }
   .warranty__certificate {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 9%;
+    order: 3;
+
     & img {
       width: 416px;
       height: 644px;
     }
   }
   .warranty__text {
+    width: 530px;
+    margin-right: 560px;
 
   }
 }
