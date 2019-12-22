@@ -57,7 +57,7 @@
   border: 1px solid;
   border-color: lighten($color, 35%);
 }
-.symptoms__report a  {
+.symptoms__report a {
   font-weight: 600;
   color: $color;
   margin-top: -15px;
@@ -115,8 +115,7 @@
     background-position: center;
   }
   .symptoms__button {
-
-    width:  420px;
+    width: 420px;
   }
   .symptoms__button::after {
     right: 85px;

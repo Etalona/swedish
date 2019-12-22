@@ -26,10 +26,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
- & p {
-   padding-left: 30px;
-   padding-right: 20px;
- }
+  & p {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
 }
 .warranty__but {
   display: block;
@@ -103,10 +103,8 @@
     }
   }
   .warranty__wrapper {
-
     display: flex;
     flex-direction: row;
-
     justify-content: center;
     background-color: lighten($color, 45%);
   }
@@ -123,7 +121,6 @@
     top: 0;
     right: 9%;
     order: 3;
-
     & img {
       width: 416px;
       height: 644px;
@@ -132,6 +129,5 @@
   .warranty__text {
     width: 530px;
     margin-right: 560px;
-
   }
 }

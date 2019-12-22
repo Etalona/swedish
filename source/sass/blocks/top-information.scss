@@ -10,7 +10,6 @@
   margin-top: 35px;
   width: 100%;
 }
-
 @media  (min-width: 768px) {
   .top-information {
     flex-direction: row;
@@ -22,7 +21,6 @@
     padding-right: 25px;
     padding-bottom: 50px;
   }
-
   .top-information__package {
     width: 50%;
     order: -1;
@@ -42,7 +40,4 @@
     bottom: 55px;
     right: 25px;
   }
-}
-@media (min-width: 1280px) {
-
 }
