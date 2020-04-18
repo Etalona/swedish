@@ -54,7 +54,7 @@
   .quote::before {
     position: absolute;
     content: "";
-    background-image: url("/img/flower-fon.png");
+    background-image: url("img/flower-fon.png");
     width: 500px;
     height: 626px;
     top: -60px;
@@ -63,7 +63,7 @@
   .quote::after {
     position: absolute;
     content: "";
-    background-image: url("/img/flower-fon.png");
+    background-image: url("img/flower-fon.png");
     width: 500px;
     height: 626px;
     transform: rotateY(-180deg);
