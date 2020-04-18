@@ -27,13 +27,13 @@
     height: 14px;
     top: 3px;
     left: 10px;
-    background-image: url("img/arrow-small.png");
+    background-image: url("../img/arrow-small.png");
     background-position: center;
     background-repeat: no-repeat;
   }
 }
 .pop__photo-text {
-  background-image: url("img/woman-small.jpg");
+  background-image: url("../img/woman-small.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -59,7 +59,7 @@
     max-width: 540px;
   }
   .pop__photo-text {
-    background-image: url("img/woman-middle.jpg");
+    background-image: url("../img/woman-middle.jpg");
     background-position-x: center;
     background-position-y: top;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@
     margin-bottom: -72px;
   }
   .pop__photo-text {
-    background-image: url("img/woman-large.jpg");
+    background-image: url("../img/woman-large.jpg");
     background-position-x: right;
     background-repeat: no-repeat;
     background-size: 875px 645px;

@@ -32,17 +32,17 @@
   left: 60px;
 }
 .composition__num--herbs::after {
-  background-image: url("img/herb-icon.png");
+  background-image: url("../img/herb-icon.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .composition__num--instruction::after {
-  background-image: url("img/instruction-icon.png");
+  background-image: url("../img/instruction-icon.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .composition__num--certificate::after {
-  background-image: url("img/certificate-icon.png");
+  background-image: url("../img/certificate-icon.png");
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -1,12 +1,12 @@
 .top-photo {
-  background-image: url("img/mountain-small.jpg");
+  background-image: url("../img/mountain-small.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media  (min-width: 768px) {
   .top-photo {
-    background-image: url("img/mountain-big.jpg");
+    background-image: url("../img/mountain-big.jpg");
     background-size: 1720px 544px;
     background-position: 0 0;
   }

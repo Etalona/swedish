@@ -9,7 +9,7 @@
 .history__photo {
   width: 100%;
   height: 382px;
-  background-image: url("img/man-small.jpg");
+  background-image: url("../img/man-small.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
@@ -39,7 +39,7 @@
     font-size: 30px;
   }
   .history__photo {
-    background-image: url("img/man-middle.jpg");
+    background-image: url("../img/man-middle.jpg");
     height: 420px;
   }
   .history__button::after {
@@ -57,7 +57,7 @@
     text-align: left;
   }
   .history__photo {
-    background-image: url("img/man-large.jpg");
+    background-image: url("../img/man-large.jpg");
     width: 774px;
     height: 920px;
   }
